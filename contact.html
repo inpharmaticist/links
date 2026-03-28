@@ -184,7 +184,7 @@
                    contact: document.getElementById('contact-info').value,
                    message: document.getElementById('message').value,
                    timestamp: new Date().toISOString(),
-                   source: 'Contact Form'
+                   source: 'littlelink'
                };
                
                const encryptedContent = await window.NostrTools.nip04.encrypt(
